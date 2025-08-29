@@ -1,6 +1,7 @@
 server:
   port: 50011
 
+spring:
   elasticsearch:
     uris: http://linux-082:50005
     username: elastic
