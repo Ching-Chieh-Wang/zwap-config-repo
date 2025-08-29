@@ -1,7 +1,7 @@
 spring:
   data:
     mongodb:
-      uri: '{vault}:product/database#PRODUCT_MONGODB_SERVICE_URI'
+      uri: '{vault}:product/product-database#PRODUCT_MONGODB_SERVICE_URI'
 
 eureka:
   client:
