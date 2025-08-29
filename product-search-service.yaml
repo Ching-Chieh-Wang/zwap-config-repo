@@ -2,8 +2,8 @@ server:
   port: 50011
 
   elasticsearch:
-    uris: ${PRODUCT_ELASTICSEARCH_SERVICE_URI}
-    username: ${PRODUCT_ELASTICSEARCH_SERVICE_USERNAME}
+    uris: http://linux-082:50005
+    username: elastic
     password: '{vault}:product/product-search-service/PRODUCT_ELASTICSEARCH_SERVICE_PASSWORD'
     connection-timeout: 2s
     socket-timeout: 5s
