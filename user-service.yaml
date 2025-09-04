@@ -1,0 +1,7 @@
+server:
+  port:
+    50012
+spring:
+  data:
+    redis:
+      url: '{vault}:user/user-service#USER_REDIS_SERVICE_URI'
