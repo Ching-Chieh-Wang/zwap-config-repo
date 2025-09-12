@@ -1,3 +1,6 @@
 service:
   uri:
     eureka: http://localhost:50008
+logging:
+  level:
+    org.springframework.web: DEBUG

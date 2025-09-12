@@ -10,3 +10,9 @@ spring:
             - name: StripPrefix
               args:
                 parts: 1
+
+
+
+logging:
+  level:
+    org.springframework.cloud.gateway: DEBUG
