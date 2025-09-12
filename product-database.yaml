@@ -10,6 +10,9 @@ eureka:
     serviceUrl:
       defaultZone: ${service.uri.eureka}/eureka
 
+firebase:
+  apikey: "{vault:user-service/USER_FIREBASE_API_KEY}"
+
 
       
 
