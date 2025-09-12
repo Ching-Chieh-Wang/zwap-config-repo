@@ -7,4 +7,4 @@ spring:
       url: '{vault}:user-service#USER_REDIS_SERVICE_URI'
 
 firebase:
-  apikey: '{vault}:user-service/USER_FIREBASE_API_KEY'
+  apikey: '{vault}:user-service#USER_FIREBASE_API_KEY'
