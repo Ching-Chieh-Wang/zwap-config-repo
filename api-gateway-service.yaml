@@ -20,7 +20,7 @@ spring:
                 parts: 1
             - name: CircuitBreaker
               args:
-                name: "'cb-' + serviceId"
+                name: cb-${serviceId}
                 statusCodes:
                   - "'NOT_FOUND'"
                   - "'BAD_GATEWAY'"
